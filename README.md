@@ -10,13 +10,15 @@ Canonical RoadCode workspace and automation hub for BlackRoad-Interactive.
 
 ## Deploy
 
-This repo ships a static site from site/ to Cloudflare Pages.
+This repo ships a static site from site/ to both GitHub Pages and Cloudflare Pages.
 
-- Pages URL: https://blackroad-interactive-roadcode.pages.dev
-- Expected project name: blackroad-interactive-roadcode
+- GitHub Pages URL: https://blackroad-interactive.github.io/RoadCode/
+- Cloudflare Pages URL: https://blackroad-interactive-roadcode.pages.dev
+- Expected Cloudflare project name: blackroad-interactive-roadcode
 
 ## Operator Notes
 
 - Default branch: main
+- GitHub Pages workflow: .github/workflows/github-pages.yml
 - Workflow: .github/workflows/roadcode-pages.yml
 - Site entrypoint: site/index.html
